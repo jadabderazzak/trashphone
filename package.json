@@ -25,7 +25,9 @@
         "build": "encore production --progress"
     },
     "dependencies": {
-        "postcss-loader": "^8.1.1"
+        "flowbite": "^3.1.2",
+        "postcss-loader": "^8.1.1",
+        "toastr": "^2.1.4"
     },
     "name": "trashphone",
     "version": "1.0.0",

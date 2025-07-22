@@ -5,7 +5,14 @@ module.exports = {
     './assets/**/*.js',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['jakarta', 'sans-serif'],
+      },
+      colors: {
+        trash: '#4baddb', // Global blue color
+      },
+    },
   },
   plugins: [],
 }
